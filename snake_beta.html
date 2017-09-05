@@ -58,7 +58,6 @@
 		ctx.fillRect(0,0,canv.width,canv.height);
 	
 		ctx.fillStyle="#666666";
-		//ctx.fillStyle="#B1B1B1";
 		for(var i=0;i<trail.length;i++) {
 			ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
 			if(trail[i].x==px && trail[i].y==py) {
@@ -96,7 +95,6 @@
 			ay=Math.floor(Math.random()*tc);
 		}
 		ctx.fillStyle="#B1B1B1";
-		//ctx.fillStyle="#666666";
 		ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
 	}
 	function keyPush(evt) {
